@@ -1,9 +1,19 @@
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+{
+    border:2px solid red;
 }
+.post{
+    border:2px solid green;
+}
+.info{
+    border:2px solid blue;
+}
+.img{
+    border:2px solid violet;
+}
+.description{
+    border:2px solid turquoise;
+}
+
 
 body {
     font-family: Arial, sans-serif;
@@ -28,8 +38,7 @@ header h1 {
 
 .feed {
     max-width: 600px;
-    margin: 0 auto;
-    padding: 0 15px;
+    margin: auto;
 }
 
 .post {
